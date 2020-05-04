@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Issue Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Issue Tracker</h1>
+    </header>
+    <form action="#">
+        <label for="issue">Description</label><br>
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="sevList">Severity</label>
+        <select name="severity" id="">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <br><br>
+        <label for="person">Assigned to</label>
+        <input type="text">
+        <br><br>
+        <input type="submit" value="Submit Issue">
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
